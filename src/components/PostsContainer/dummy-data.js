@@ -1,4 +1,30 @@
+
 const dummyData = [
+  {
+    username: "meowkitty",
+    thumbnailUrl:
+      "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/26804486_1802546413103397_5296286148241416553_n.jpg?_nc_cat=0&oh=22c72f2a5cf72a0977e9e2b8c85132ba&oe=5BF762CC",
+
+    imageUrl:
+      "https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/15776749_1390156294342413_7953599014604085916_o.jpg?_nc_cat=0&oh=b32688662489ce94425eff4add445442&oe=5BF73B98",
+    likes: 90001,
+    timestamp: "July 12th 2018, 1:42:40 pm",
+    comments: [
+      {
+        username: "meowkitty",
+        text:
+          "Isn't he just a cutie?? i love him!"
+      },
+      {
+        username: "gotta-blast",
+        text: "Aw look at him!"
+      },
+      {
+        username: "broxxdo",
+        text: "Is that a dog?"
+      }
+    ]
+  },
     {
       username: "philzcoffee",
       thumbnailUrl:

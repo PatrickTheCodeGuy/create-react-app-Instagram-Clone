@@ -29,7 +29,7 @@ export default class SearchBar extends React.Component {
     return (
       <div className="bar" >
         <div className="navbar">
-          <div className="instagramlogo" ><a href="App.js" ><img src={instagramlogo} alt={"none"} ></img></a></div>
+          <div className="instagramlogo" ><a href="https://instagramclonesite.netlify.com/" ><img src={instagramlogo} alt={"none"} ></img></a></div>
           <div className="searchbar" ><Form inline>
             <FormGroup  className="searching">
               <Label for="search" className="search-bar"></Label>
@@ -43,7 +43,7 @@ export default class SearchBar extends React.Component {
             <nav className="nav-items" >
               <a href="none"><img src={compass}  alt={"none"}></img></a>
               <a href="none"><img src={heart} alt={"none"}></img></a>
-              <a href="Shrek.js"><img src={person} alt={"none"}></img></a>
+              <a href="#"><img src={person} alt={"none"}></img></a>
             </nav>
            </div>
       </div>
