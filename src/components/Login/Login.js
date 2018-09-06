@@ -51,7 +51,7 @@ class Login extends Component {
                                     <h2 className="h2-word">Username</h2>
                                     <input className="Username username-form" name="username" type="text" onChange={this.handleInputChange} value={this.state.username}></input>
                                     <h2 className="h2-word">Password</h2>
-                                    <input className="Username username-form" name="password" type="text"></input>
+                                    <input className="Username username-form" name="password" type="password"></input>
                                     <button onClick={this.handleLogin}  className="signin-button">Sign up</button>
                                 </form>
                                 
